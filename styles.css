@@ -812,7 +812,7 @@ text-rendering: optimizeLegibility;
 
 
 .visible{
-  width: 30%;
+  width: 100%;
 }
 .listings{
   font-size: 1em;
