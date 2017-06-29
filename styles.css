@@ -616,7 +616,20 @@ text-rendering: optimizeLegibility;
   height: initial;
   margin-bottom: 10%;
 }
+.banner-heading{
+  margin-top: 30%;
+}
+.showcase{
+  height: 800px;
+}
+.banner-desc{
+  padding-left: 5%;
+  padding-right: 5%;
 
+}
+.round{
+  padding: 0;
+}
 .footer{
   position: relative;
 
@@ -772,7 +785,7 @@ text-rendering: optimizeLegibility;
 .showcase-para{
   margin-left: 22%;
   display: block;
-  font-size: 1.2em;
+  font-size: 1.3em;
   width: 59%;
 }
 
@@ -815,7 +828,7 @@ text-rendering: optimizeLegibility;
   width: 100%;
 }
 .listings{
-  font-size: 1em;
+  font-size: 1.2em;
   padding-left: 21%;
 }
 
@@ -824,10 +837,23 @@ text-rendering: optimizeLegibility;
 
 @media (min-width:1px) and (max-width:399px) {
 
-.visible{
-  width: 100%;
+.pushed{
+  margin-left: 30%;
 }
 
+.visible{
+  width: 70%;
+}
+.logo{
+  float: none;
+}
+.navbar{
+  text-align: center;
+}
+.round2{
+  margin-left: 0;
+  padding-left: 25px;
+}
 .cards{
   height: 300px;
   width: 80%;
@@ -922,7 +948,7 @@ text-rendering: optimizeLegibility;
 .showcase-para{
   margin-left: 22%;
   display: block;
-  font-size: 1.2em;
+  font-size: 1.3em;
   width: 59%;
 }
 
@@ -962,11 +988,109 @@ text-rendering: optimizeLegibility;
 
 
 .listings{
-  font-size: 1em;
+  font-size: 1.5em;
   padding-left: 21%;
 }
 
+.icon{
+  float: left;
+  margin-left: 5%;
 }
+
+#language{
+  display: none;
+}
+
+.navbar{
+  height: 120px !important;
+}
+.button-search{
+
+}
+.right{
+  float:none;
+}
+.buttonSet a:nth-child(4) {
+     margin-right: 0px;
+}
+.logo-img{
+  width: 100%;
+}
+.sidebar{
+  padding-top: 120px;
+}
+.pushed{
+  margin: 0;
+
+}
+
+}
+
+
+@media (min-width:400px) and (max-width:700px) {
+  .visible{
+    width: 70%;
+  }
+  .pushed{
+    margin-left: 30%;
+  }
+
+  .listings{
+    font-size: 1.5em;
+  }
+  .navbar{
+    height: 120px !important;
+  }
+  .button-search{
+
+  }
+  #language{
+    display: none;
+  }
+  .right{
+    float:none;
+  }
+  .buttonSet a:nth-child(4) {
+       margin-right: 0px;
+  }
+  .logo-img{
+    width: 100%;
+  }
+  .sidebar{
+    padding-top: 120px;
+  }
+  .pushed{
+    margin: 0;
+
+  }
+  .visible{
+    width: 70%;
+  }
+  .icon{
+    float: left;
+    margin-left: 5%;
+  }
+  .visible{
+    width: 100%;
+  }
+  .logo{
+    float: none;
+  }
+  .navbar{
+    text-align: center;
+  }
+  .round2{
+    margin-left: 0;
+    padding-left: 25px;
+  }
+
+
+
+
+
+  }
+
+
 
 
 
